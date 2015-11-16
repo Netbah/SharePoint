@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9cb93277-e243-4546-9f6b-737953133119" solutionId="9cb93277-e243-4546-9f6b-737953133119" resetWebServer="false" sharePointProductVersion="15.0" name="SharePoint.CopyList" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" />

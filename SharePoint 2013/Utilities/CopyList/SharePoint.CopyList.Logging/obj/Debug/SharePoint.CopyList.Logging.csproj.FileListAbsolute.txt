@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\NLog.config
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\NLog.dll
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\NLog.xml
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.exe.config
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.exe
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.pdb
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\obj\Debug\SharePoint.CopyList.Logging.exe
+C:\Users\admin\Desktop\git\Utilities\CopyListOrders\SharePoint.CopyList.Logging\obj\Debug\SharePoint.CopyList.Logging.pdb
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\NLog.config
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.exe.config
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.exe
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\SharePoint.CopyList.Logging.pdb
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\NLog.dll
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\bin\Debug\NLog.xml
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\obj\Debug\SharePoint.CopyList.Logging.exe
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList.Logging\obj\Debug\SharePoint.CopyList.Logging.pdb

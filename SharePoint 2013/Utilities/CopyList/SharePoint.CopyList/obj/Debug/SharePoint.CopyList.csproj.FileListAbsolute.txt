@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\NLog.config
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\SharePoint.CopyList.dll
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\SharePoint.CopyList.pdb
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\NLog.dll
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\SharePoint.CopyList.Logging.exe
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\SharePoint.CopyList.Logging.pdb
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\bin\Debug\NLog.xml
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\obj\Debug\SharePoint.CopyList.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\obj\Debug\SharePoint.CopyList.dll
+C:\Users\admin\Desktop\git\SharePoint 2013\Utilities\CopyList\SharePoint.CopyList\obj\Debug\SharePoint.CopyList.pdb
