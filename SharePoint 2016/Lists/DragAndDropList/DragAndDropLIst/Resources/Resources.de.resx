@@ -138,6 +138,9 @@
   <data name="DragAndDropListFeature_Title" xml:space="preserve">
     <value>Drag and drop list</value>
   </data>
+  <data name="DragAndDropList_DisplayName" xml:space="preserve">
+    <value>Drag and Drop</value>
+  </data>
   <data name="DragAndDropList_Title" xml:space="preserve">
     <value>Drag and drop</value>
   </data>

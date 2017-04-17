@@ -10,10 +10,10 @@
                         ElementOrderNumber: arguments[1]
                     };
                 }),
-                listTitle: ctx.ListTitle,
+                listTitle: ctx.listUrlDir.split('/').pop(),
+                listGUID: ctx.listName,
                 table: null
             };
-
 
             var startOrderNumber,
 			rows,
@@ -36,7 +36,7 @@
                 }
             });
 
-            //Hide view header   
+            //Hide view header
             $(tbody.parentElement.parentElement.firstElementChild).hide();
 
             //Save changes
@@ -95,7 +95,7 @@
                     ElementOrderNumber: item.ElementOrderNumber
                 }
                 var webUrl = _spPageContextInfo.webAbsoluteUrl
-                var listItemUri = webUrl + "/_api/web/lists/getbytitle('" + GragAndDropList.listTitle + "')/items(" + listItemId + ")";
+                var listItemUri = webUrl + "/_api/web/lists('" + GragAndDropList.listGUID + "')/items(" + listItemId + ")";
                 var itemPayload = {
                     '__metadata': {
                         'type': getItemTypeForListName(GragAndDropList.listTitle)

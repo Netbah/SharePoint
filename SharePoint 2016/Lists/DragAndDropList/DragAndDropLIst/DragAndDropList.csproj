@@ -41,7 +41,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>qwerty.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -86,6 +86,7 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="qwerty.pfx" />
     <None Include="Resources\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5be547b3-811c-49db-8a6a-09e02250cb3e}</SharePointProjectItemId>
     </None>

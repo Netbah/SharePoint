@@ -8,6 +8,6 @@
       OnQuickLaunch="TRUE"
       SecurityBits="11"
       Sequence="10000"
-      DisplayName="$DragAndDropResources:DragAndDropList"
+      DisplayName="$DragAndDropResources:DragAndDropList_DisplayName"
       Image="/_layouts/15/images/itgen.png"/>
 </Elements>

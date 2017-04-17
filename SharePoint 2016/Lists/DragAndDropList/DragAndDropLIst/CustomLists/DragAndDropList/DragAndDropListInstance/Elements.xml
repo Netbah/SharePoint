@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ListInstance Title="DragAndDropList" 
+  <ListInstance Title="Drag and Drop" 
                 OnQuickLaunch="TRUE" 
                 TemplateType="10101" 
                 Url="Lists/DragAndDropList"

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10101">
+      <Receiver>
+        <Name>DragAndDropListEventReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>DragAndDropList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=8672d92be9666095</Assembly>
+        <Class>DragAndDropList.EventRecivers.DragAndDropListEventReceiver.DragAndDropListEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>DragAndDropListEventReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>DragAndDropList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=8672d92be9666095</Assembly>
+        <Class>DragAndDropList.EventRecivers.DragAndDropListEventReceiver.DragAndDropListEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>DragAndDropListEventReceiverItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>DragAndDropList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=8672d92be9666095</Assembly>
+        <Class>DragAndDropList.EventRecivers.DragAndDropListEventReceiver.DragAndDropListEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>
