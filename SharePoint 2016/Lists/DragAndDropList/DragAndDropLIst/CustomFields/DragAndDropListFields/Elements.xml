@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <Field ID="{41471689-7F66-4EC5-8A51-B60C2B8F34F7}"
+	       Name="ElementOrderNumber"
+	       DisplayName="$DragAndDropResources:ElementOrderNumber"
+	       Type="Number"
+	       Required="FALSE"
+	       Hidden="FALSE"
+         ShowInDisplayForm="FALSE"
+         ShowInNewForm="FALSE"
+         ShowInEditForm="FALSE"
+	       Group="$DragAndDropResources:DragAndDropColumns"/>
+
+  <Field ID="{E8B5287C-14A4-413A-A199-D9928525BCCD}"
+	       Name="ElementDescription"
+	       DisplayName="$DragAndDropResources:Element_Description"
+	       Type="Text"
+	       Required="FALSE"
+	       Group="$DragAndDropResources:DragAndDropColumns"/>
+
+</Elements>

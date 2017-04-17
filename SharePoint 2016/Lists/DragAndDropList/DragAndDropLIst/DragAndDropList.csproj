@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8CC66DA-07A3-4766-9228-19F623C2CD12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DragAndDropList</RootNamespace>
+    <AssemblyName>DragAndDropList</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.5</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomActions\CustomAction\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{35910d68-8f20-4276-b69b-2c157bd26516}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomContentTypes\DragAndDropListCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aa866b75-6660-475f-a006-a98446119e4e}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomFields\DragAndDropListFields\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a58d0a56-6c54-4c12-82ac-abcc87f5525e}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomLists\DragAndDropList\DragAndDropListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{98346e1c-0a5e-4818-81f0-b95b2da8cd04}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomLists\DragAndDropList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{19f0657d-5bee-40c6-ae60-4143f6904569}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\DragAndDropListFeature\DragAndDropListFeature.feature">
+      <FeatureId>{cda465ac-ff97-4bdc-be7a-77e9fb2479a8}</FeatureId>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cd963082-a4d1-4e56-a530-7f7f1a56aec2}</SharePointProjectItemId>
+    </None>
+    <None Include="ListTemplates\DragAndDropListTemplate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{28f77990-f2d3-4b70-b71b-b59dab76fcae}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{0da7a000-b48e-4410-b74b-c99541b90f0c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5be547b3-811c-49db-8a6a-09e02250cb3e}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CustomActions\CustomAction\Elements.xml" />
+    <Content Include="CustomContentTypes\DragAndDropListCT\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CustomFields\DragAndDropListFields\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CustomLists\DragAndDropList\DragAndDropListInstance\Elements.xml" />
+    <Content Include="CustomLists\DragAndDropList\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\DragAndDropListFeature\DragAndDropListFeature.Template.xml">
+      <DependentUpon>DragAndDropListFeature.feature</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Layouts\jquery-ui.min.js" />
+    <Content Include="Layouts\DragAndDropList\listView.js" />
+    <Content Include="Layouts\jquery.js" />
+    <Content Include="ListTemplates\DragAndDropListTemplate\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\DragAndDropListFeature\Resources.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\DragAndDropListFeature\Resources.de.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.de.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

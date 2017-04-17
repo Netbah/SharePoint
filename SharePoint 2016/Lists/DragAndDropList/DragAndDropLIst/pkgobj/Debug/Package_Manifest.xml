@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0da7a000-b48e-4410-b74b-c99541b90f0c" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="DragAndDropList.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\Resources.de.resx" />
+    <RootFile Location="Resources\Resources.en.resx" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\jquery-ui.min.js" />
+    <TemplateFile Location="Layouts\DragAndDropList\listView.js" />
+    <TemplateFile Location="Layouts\jquery.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="DragAndDropList_DragAndDropListFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

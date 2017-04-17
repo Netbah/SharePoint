@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ContentType ID="0x0100D152EBDFA9B9409EA2AF0DAAAEC90966"
+               Name="$DragAndDropResources:DragAndDropContentTypes_Title"
+               Group="$DragAndDropResources:CustomGroup_ContentTypes"
+               Description="$DragAndDropResources:DragAndDropListFeature_Title"
+               Version="0">
+    <!-- refer fields in the content type-->
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Item" Required="TRUE"/>
+      <FieldRef ID="{41471689-7F66-4EC5-8A51-B60C2B8F34F7}" />
+      <FieldRef ID="{E8B5287C-14A4-413A-A199-D9928525BCCD}" />
+    </FieldRefs>
+  </ContentType>
+
+</Elements>

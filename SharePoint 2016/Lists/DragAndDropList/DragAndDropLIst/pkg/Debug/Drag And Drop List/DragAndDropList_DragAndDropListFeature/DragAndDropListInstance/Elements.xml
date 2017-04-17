@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="DragAndDropList" 
+                OnQuickLaunch="TRUE" 
+                TemplateType="10101" 
+                Url="Lists/DragAndDropList"
+                Description="My List Instance"
+                FeatureId = "fe73c5dd-b665-46b0-9e86-0108eeb0e92e">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ElementOrderNumber">5</Field>
+          <Field Name="Title">Oslo</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+        <Row>
+          <Field Name="ElementOrderNumber">4</Field>
+          <Field Name="Title">Sidney</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+        <Row>
+          <Field Name="ElementOrderNumber">3</Field>
+          <Field Name="Title">Stuttgart</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+        <Row>
+          <Field Name="ElementOrderNumber">2</Field>
+          <Field Name="Title">New-Yourk</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+        <Row>
+          <Field Name="ElementOrderNumber">1</Field>
+          <Field Name="Title">Berlin</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+        <Row>
+          <Field Name="ElementOrderNumber">0</Field>
+          <Field Name="Title">London</Field>
+          <Field Name="ElementDescription">Drag and drop where you want</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

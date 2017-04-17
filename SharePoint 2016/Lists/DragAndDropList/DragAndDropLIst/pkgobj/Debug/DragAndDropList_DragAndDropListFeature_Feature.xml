@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" DefaultResourceFile="Resources.en.resx" Description="&quot;$Resources:DragAndDropListFeature_Description&quot;" Id="fe73c5dd-b665-46b0-9e86-0108eeb0e92e" Scope="Web" Title="&quot;$Resources:DragAndDropListFeature_Title&quot;">
+  <ElementManifests>
+    <ElementManifest Location="DragAndDropListFields\Elements.xml" />
+    <ElementManifest Location="DragAndDropListCT\Elements.xml" />
+    <ElementManifest Location="DragAndDropListTemplate\Elements.xml" />
+    <ElementFile Location="DragAndDropList\Schema.xml" />
+    <ElementManifest Location="DragAndDropListInstance\Elements.xml" />
+    <ElementManifest Location="CustomAction\Elements.xml" />
+    <ElementFile Location="Resources\Resources.en.resx" />
+    <ElementFile Location="Resources\Resources.de.resx" />
+  </ElementManifests>
+</Feature>

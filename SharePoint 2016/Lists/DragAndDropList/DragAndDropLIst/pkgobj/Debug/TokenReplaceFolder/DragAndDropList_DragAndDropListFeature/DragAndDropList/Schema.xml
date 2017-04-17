@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint"
+      Title="DragAndDropList"
+      FolderCreation="FALSE"
+      Direction="$DragAndDropResources:Direction;"
+      Url="Lists/DragAndDropList"
+      BaseType="0"
+      xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <!-- mention content type-->
+      <ContentTypeRef ID="0x0100D152EBDFA9B9409EA2AF0DAAAEC90966" />
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+      <Field Type="Text"
+             DisplayName="Title"
+             Required="FALSE"
+             MaxLength="255"
+             ID="{0248c82f-9136-4b3a-b802-d0b77280b3bc}"
+             StaticName="BlogTitle" Name="BlogTitle"
+             Group="Custom Columns" />
+      
+      <Field ID="{41471689-7F66-4EC5-8A51-B60C2B8F34F7}"
+             Name="ElementOrderNumber"
+             DisplayName="Order Number"
+             Type="Number"
+             Required="FALSE"
+             Hidden="FALSE"
+             ShowInDisplayForm="FALSE"
+             ShowInNewForm="FALSE"
+             ShowInEditForm="FALSE"
+             Group="Drag and Drop Columns"/>
+
+      <Field ID="{E8B5287C-14A4-413A-A199-D9928525BCCD}"
+             Name="ElementDescription"
+             DisplayName="Description"
+             Type="Text"
+             Required="FALSE"
+             Group="Drag and Drop Columns"/>
+    </Fields>
+    <Views>
+      <View BaseViewID="0"
+			      Type="HTML"
+			      MobileView="TRUE"
+			      TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="ElementOrderNumber"/>
+          <FieldRef Name="Title"/>
+          <FieldRef Name="ElementDescription"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified"
+						          Ascending="FALSE"/>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement"
+					                  Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements"
+					                  Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo"
+					                  Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1"
+			      Type="HTML"
+			      WebPartZoneID="Main"
+			      DisplayName="$DragAndDropResources:core,objectiv_schema_mwsidcamlidC24;"
+			      DefaultView="TRUE"
+			      MobileView="TRUE"
+            ShowHeaderUI="FALSE"
+			      MobileDefaultView="TRUE"
+			      SetupPath="pages\viewpage.aspx"
+			      ImageUrl="/_layouts/15/images/generic.png?rev=23"
+			      Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="ElementOrderNumber" Filterable="False"/>
+          <FieldRef Name="Title" Filterable="False"/>
+          <FieldRef Name="ElementDescription" Filterable="False"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"/>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements"
+					                  Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo"
+					                  Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2"
+			      Name="ed6a49a7-9a83-4936-b0e6-981ae6cfba4d"
+			      DisplayName="Drag and Drop"
+            DefaultView="TRUE"
+			      Type="HTML"
+			      WebPartZoneID="Main"
+            ReadOnly = "TRUE"
+			      SetupPath="pages\viewpage.aspx"
+			      Url="Drag and Drop.aspx">
+        <RowLimit>30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="ID"/>
+          <FieldRef Name="Title"/>
+          <FieldRef Name="ElementDescription"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ElementOrderNumber"/>
+          </OrderBy>
+        </Query>
+        <Toolbar Type="FreeForm" />
+        <JSLink>/_layouts/15/DragAndDropList/listView.js</JSLink>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm"
+			      Url="DispForm.aspx"
+			      SetupPath="pages\form.aspx"
+			      WebPartZoneID="Main" />
+      <Form Type="EditForm"
+			      Url="EditForm.aspx"
+			      SetupPath="pages\form.aspx"
+			      WebPartZoneID="Main" />
+      <Form Type="NewForm"
+			      Url="NewForm.aspx"
+			      SetupPath="pages\form.aspx"
+			      WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

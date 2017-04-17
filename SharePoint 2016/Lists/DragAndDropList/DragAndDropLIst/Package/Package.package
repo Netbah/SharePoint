@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0da7a000-b48e-4410-b74b-c99541b90f0c" solutionId="0da7a000-b48e-4410-b74b-c99541b90f0c" resetWebServer="false" sharePointProductVersion="16.0" name="Drag And Drop List" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="cda465ac-ff97-4bdc-be7a-77e9fb2479a8" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="cd963082-a4d1-4e56-a530-7f7f1a56aec2" />
+    <projectItemReference itemId="5be547b3-811c-49db-8a6a-09e02250cb3e" />
+    <projectItemReference itemId="35910d68-8f20-4276-b69b-2c157bd26516" />
+    <projectItemReference itemId="aa866b75-6660-475f-a006-a98446119e4e" />
+    <projectItemReference itemId="28f77990-f2d3-4b70-b71b-b59dab76fcae" />
+  </projectItems>
+</package>
